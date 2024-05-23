@@ -1,8 +1,9 @@
 //! Dynamicalyy Typed Language
 
-console.log("this file contains variables knowledge :-")
+console.log("Variable Example :-")
 let a = 18
-console.log("Int---->",a)
+var b = 19
+console.log("Int---->",a,b)
 a = "arhaan"
 console.log("Str---->",a)
 
@@ -22,7 +23,8 @@ console.log("Constant Example :-")
 const B = 27
 console.log(B)
 
-// const B = 'Arhaan' //? Error
+//todo const B = 'Arhaan' 
+//? Error
 
 //* we use 'var' for globally scoped variables and 'let' & 'const' for block scoped...
  
