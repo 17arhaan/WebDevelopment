@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+  <!-- Meta tags provide metadata about the HTML document -->
+  <meta charset="UTF-8"> <!-- Character encoding for the document -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Viewport settings for responsive design -->
+  <title>Basic HTML Template</title> <!-- Title of the document, shown in the browser tab -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file for styling -->
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>My name is Arhaan</h2>
+  <!-- Header section, usually contains the site's main navigation -->
+  <header>
+    <h1>Welcome to My Website</h1> <!-- Main heading of the document -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content section -->
+  <main>
+    <!-- Article section for standalone content -->
+    <article>
+      <h2>Article Title</h2> <!-- Secondary heading -->
+      <p>This is a paragraph in the article. HTML is the standard markup language for creating web pages.</p>
+      <p>Here is another paragraph with some <strong>bold text</strong> and <em>italic text</em>.</p>
+    </article>
+
+    <!-- Section for grouping related content -->
+    <section id="home">
+      <h2>Home Section</h2>
+      <p>Content for the home section goes here.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Section</h2>
+      <p>Content for the about section goes here.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Section</h2>
+      <p>Content for the contact section goes here.</p>
+      <!-- Form for user input -->
+      <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer section -->
+  <footer>
+    <p>&copy; 2024 My Website</p>
+  </footer>
 </body>
-<footer>
-    <f1>Test 1</f1>
-    <f3>Test 2</f2>
-    <f2>Test 3</f3>
-</footer>
-</html> 
+</html>
