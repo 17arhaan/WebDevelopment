@@ -1,4 +1,7 @@
+td {
+    border: 2px solid white;
+}
 body {
-    background-color: rgb(255, 120, 185);
-    color: aliceblue;
+    background-color: black;
+    color: rgb(255, 255, 149);
 }
