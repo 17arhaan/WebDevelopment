@@ -29,6 +29,6 @@ const Dictionaryy = {
     "Ball"  : "Thing" ,
     "Cat"   : "Animal"
 }
-console.log(Dictionaryy )
+console.log(Dictionaryy)
 
-//?---------------------------------
+//?--------------------------------
