@@ -8,40 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header> <!--! Header -->  
         <h1>Table :-</h1>
     </header>
     <table> <!--* Basic Table Structure -->      
         <caption> Info Table </caption>
-        <tr>
-            <thead> <!--! Header -->
-
-            <th>Name</th>
-            <th>Age</th>
-            <th>Gender</th>
+        <thead> <!--!Table Header -->     
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
             </tr>
+        </thead>
 
-            </thead>
-
-            <tbody> <!--! Body / Content--> 
-                <!--* Optional-->
-                <tr> 
-                <td colspan="2">Arhaan</td> <!--* Column Space Syntax -->
-                <td rowspan="2">20</td>
+        <tbody> <!--! Table Body / Content--> 
+            <!--* Optional-->
+            <tr> 
+                <td >Arhaan</td> <!--* Column Space Syntax -->
+                <td colspan="1">20</td>
                 <td>Male</td>
             </tr>
-
-           </tbody>
+            <tr>
+                <td>Arhaaan</td>
+                <td>21</td>
+                <td>Female</td>
+                                        > <!--* Same Line -->
+                <td>Arhaaaan</td>
+                <td>21</td>
+                <td>Male</td>
+            </tr>              
+        </tbody>
             
-            <tfoot> <!--! Footer -->
-
+        <tfoot> <!--! Table Footer -->
             <tr>
                 <td>Arhan</td>
                 <td>21</td>
                 <td>Female</td>
             </tr>
-
-            </tfoot>
+        </tfoot>
     </table>
     <h1>
         Images :-
@@ -49,8 +53,26 @@
     <img height="200" src="zmg.png" alt="Night"> <!--* Image Description -->
     <img width="390" src="xmg.png" alt="Day"> <!--* Image Description -->
     <!-- <script src="script.js"></script> -->
+
+    <h1>Lists :-</h1>
+    <h3>Ordered Lists</h3>
+    <ol>
+        <li> A </li>
+        <li> B </li> 
+        <li> C </li>
+        <li> D </li>
+        <li> E </li>
+    </ol>
+    <h3>Unordered Lists</h3>
+    <ul>
+        <li> A </li>
+        <li> B </li>
+        <li> C </li>
+        <li> D </li>
+        <li> E </li>
+    </ul>
     <footer>
-        Test 3 By Arhaan
+        Test 3.2 By Arhaan
     </footer>
 </body>
 </html>

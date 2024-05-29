@@ -1,0 +1,15 @@
+Core and SEO Web Vitals are important for search engine to index and rank your website better.
+
+SEO stands for Search Engine Operation, which is the main part of a web page that can be searched by Google or other search engines.
+
+Important Points :-
+    1. Good User Experience. 
+
+    2. Less CLS  (Cumulative Layout Shift) and FID (First Input Delay).
+    3. FID should be less than 100 milliseconds.
+
+    4. LCP  (Largest Contentful Paint) is the most important metric for SEO, which means that if you have a good LCP score then your website will be ranked better by search engines. It should be around 2.5 seconds to load the page in Google Chrome browser.
+
+    5. Lighthouse is used to test and analyze web pages performance metrics like FID, CLS, TTI etc and also it can be integrated with CI/CD tools for continuous monitoring of website performance metrics.
+    
+    

@@ -12,3 +12,9 @@ body {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 149);
 }
+ol {
+    list-style: lower-roman;
+}
+ul {
+    list-style-type: square;
+}
