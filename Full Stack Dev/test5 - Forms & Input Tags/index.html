@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bank Account Register Form</h1>
+    <form action="">
+        <div> 
+            <label for="username"></label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">  
+            <!--! ID is used for Distinctivity-->
+        </div>
+        <div>
+            <!--* DIV : section in an HTML >> BR -->
+            <input type="radio" id="male" name="gender" value="male"> 
+            <!--* Radio Button-->
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <!--! Same name is used for singluar selection-->
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Adult" name="Adult" value="yes">
+            <label for="Adult">Are u 18+ ??</label>  
+        </div>
+        <div> <!--* Textbox-->
+            <label for="comment">Enter you details here :-</label>
+            <br>
+            <textarea name="Comment" id="comment" rows="4" cols="30"> 
+            </textarea>
+        </div>
+        <div><!--* Selectbox-->
+            <select name="fruits">
+                <option value="Savings">Savings</option>
+                <option value="Current">Current</option>
+                <option value="OD">OD</option>
+              </select>
+              <input type="submit" value="Submit">        
+        </div>
+    </form>
+</body>
+</html>
