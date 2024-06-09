@@ -1,36 +1,44 @@
 <h1>
-  Welcome to The Python repository! 
+  Welcome to The Website Development repository! 
 </h1>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <img src="https://media.licdn.com/dms/image/C4E12AQHEGGtJCqfidQ/article-cover_image-shrink_720_1280/0/1598186595521?e=2147483647&v=beta&t=WY3w2I6tHzV_7K0fodlqtIc9o3_yo58NKoaVp-S2H2k">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h3>LeetCode Solutions</h3> 
 
-●  A collection of efficient and well-documented solutions to a wide range of LeetCode problems. These solutions are designed to help you understand different problem-solving techniques and improve your algorithmic skills.
-<br/>
-●  Solutions are organized by difficulty (easy, medium, hard) and topic (e.g., arrays, strings, dynamic programming).
-<br/>
-<h3>Artificial Intelligence and Its Algorithms</h3>
+<h3>HTML</h3> 
 
-➙  Implementations of fundamental AI algorithms including but not limited to search algorithms, machine learning models, neural networks, and optimization techniques.
+➙ Comprehensive tutorials and examples to understand the structure and semantics of HTML.
 <br/>
-➙  Detailed explanations and code examples of popular AI algorithms such as A*, k-means clustering, decision trees, and deep learning architectures.
+➙ Sample projects illustrating the usage of different HTML tags and best practices for creating accessible web pages.
 <br/>
-➙  Real-world applications showcasing how AI can be used to solve practical problems.
+➙ Exercises to reinforce learning and ensure a solid grasp of HTML fundamentals.
 <br/>
-<h3>Django Projects</h3>
+<h3>CSS</h3>
 
-➙  Sample projects and tutorials demonstrating the power of Django for web development.
+➙  Detailed guides on styling web pages using CSS, including CSS Grid, Flexbox, and responsive design.
 <br/>
-➙  Step-by-step guides to building web applications using Django, covering models, views, templates, forms, authentication, and deployment.
+➙  Examples showcasing various CSS properties, selectors, and animations.
 <br/>
-➙  Advanced Django topics like RESTful APIs with Django REST framework, integrating with front-end frameworks, and performance optimization.
+➙  Practical projects and exercises to help you create visually appealing and responsive web layouts.
+<br/>
+
+<h3> JavaScript | React JS </h3>
+
+➙  Tutorials covering the core concepts of JavaScript, from basic syntax to advanced topics like closures, promises, and async/await.
+<br/>
+➙  Hands-on projects and examples to demonstrate JavaScript in action, including DOM manipulation, event handling, and AJAX requests.
+<br/>
+➙  Exercises and coding challenges to sharpen your JavaScript skills.
+<br/>
+➙  In-depth tutorials on building single-page applications using React, covering components, state, props, hooks, and context.
+<br/>
+➙  Advanced topics such as React Router, Redux for state management, and performance optimization techniques.
 <br/>
 <h2>Key Features</h2>
 
-➤  **Structured Content**: The repository is organized into clear sections for easy navigation and learning.
+➤  **Structured Content**: The repository is organized into clear sections for easy navigation and progressive learning.
 <br/>
 ➤  **Code Quality**: All code is written with readability and best practices in mind, ensuring it is easy to understand and modify.
 <br/>
@@ -45,9 +53,9 @@
 
 1. **Clone the Repository**: 
     ```bash
-    git clone https://github.com/17arhaan/Python.git
+    git clone https://github.com/17arhaan/WebDevelopment.git
     ```
-2. **Navigate to a Project**: Explore the `Python` directory to find the project you want to work on.
+2. **Navigate to a Project**: Explore the `applications` directory to find the project you want to work on.
 3. **Follow the Instructions**: Each project folder contains a `README.md` with setup instructions and detailed information.
 4. **Learn and Contribute:** Use the repository as a learning resource and feel free to contribute by submitting issues, pull requests, or suggestions.
 5. **Run the Project**: Follow the setup instructions to run the project locally using
@@ -60,7 +68,7 @@
 This repository is licensed under the MIT License. See the LICENSE.md for more details.
    
   ```bash
-    https://github.com/17arhaan/Python/LICENSE.md
+    https://github.com/17arhaan/WebDevelopmenr/LICENSE.md
    ```
 
 <a href="https://github.com/17arhaan" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
