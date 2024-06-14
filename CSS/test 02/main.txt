@@ -1,0 +1,64 @@
+In CSS, both descendant and child selectors are used to apply styles to elements based on their hierarchical relationship in the HTML document. However, they differ in their specificity and the way they select elements.
+
+### Descendant Selector
+
+The descendant selector is used to select all elements that are descendants of a specified element. A descendant can be any level deep within the hierarchy, meaning it can be a child, grandchild, great-grandchild, etc.
+
+**Syntax:** `A B`
+
+- `A` is the ancestor element.
+- `B` is the descendant element.
+
+**Example:**
+
+```html
+<div class="container">
+  <p>This is a paragraph.</p>
+  <div class="nested">
+    <p>This is a nested paragraph.</p>
+  </div>
+</div>
+```
+
+```css
+.container p {
+  color: blue;
+}
+```
+
+In this example, the `p` elements inside `.container` will be selected, including both the direct child and the nested child.
+
+### Child Selector
+
+The child selector is used to select elements that are direct children of a specified element. It only applies styles to elements that are one level deep from the parent.
+
+**Syntax:** `A > B`
+
+- `A` is the parent element.
+- `B` is the direct child element.
+
+**Example:**
+
+```html
+<div class="container">
+  <p>This is a paragraph.</p>
+  <div class="nested">
+    <p>This is a nested paragraph.</p>
+  </div>
+</div>
+```
+
+```css
+.container > p {
+  color: green;
+}
+```
+
+In this example, only the direct child `p` element inside `.container` will be selected and styled. The nested `p` inside the `.nested` div will not be affected.
+
+### Summary
+
+- **Descendant Selector (`A B`)**: Selects all elements `B` that are descendants of element `A`, at any level of nesting.
+- **Child Selector (`A > B`)**: Selects only the elements `B` that are direct children of element `A`.
+
+Understanding the difference between these selectors is crucial for applying the correct styles to elements based on their position in the HTML structure.

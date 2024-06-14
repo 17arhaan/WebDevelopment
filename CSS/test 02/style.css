@@ -1,0 +1,30 @@
+div {
+    background-color: rgb(255, 255, 255);
+    margin: 3px;;
+    padding: 1px ;
+}
+.firstclass {
+    background-color: aqua;
+}
+#firstid {
+    background-color: rgb(172, 81, 81);
+}
+/*! This is represents a child element under a parent element. */ 
+div > p { 
+    color: aliceblue;
+    background-color: blue;
+}
+body {
+    background-color: black;
+}
+
+/** Psudeo Selector */
+a:active {
+    background-color: brown;
+}
+a:hover{
+    background-color: aqua;
+}
+a:visited{
+    color: yellowgreen;
+}
