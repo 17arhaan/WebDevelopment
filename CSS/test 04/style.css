@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+}
+.f1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: line-through;
+}
+.f2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+.f3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.f4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+.f5 {
+    font-family: "Playwrite IS", cursive;
+    font-optical-sizing:initial;
+    font-style:italic;
+}
+  
+.f6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
