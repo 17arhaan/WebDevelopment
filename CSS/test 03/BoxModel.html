@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test 3</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: bisque;
+            color: black;
+        }
+        .box {
+            color: black;
+        }
+        .box1 {
+            height: 50px;
+            border: 2px solid black;
+            margin: 8px;
+            padding: 50px;
+            background-color: lightcoral;
+            box-sizing: border-box; /* This tells include border and padding in height */
+        }
+        .box2 {
+            background-color: lightseagreen;
+            margin: 8px;
+            padding: 10px;
+            border: 2px solid black;
+        }
+    </style>    
 </head>
-<body>
-    
+<body> <!--* Multiple Classes -->
+    <div class = "box box1" >
+        I am a box
+    </div>
+    <div class = "box box2">
+        I am another box
+    </div>
 </body>
-</html>
+</html> 
