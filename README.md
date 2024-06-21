@@ -3,7 +3,7 @@
 </h1>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fiamkrunal68.medium.com%2Fmern-stack-1f63372c87a5&psig=AOvVaw1pAidZcUfUxBcmnQZWYOIE&ust=1719074441312000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiC-LyR7YYDFQAAAAAdAAAAABAp">
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*3RrAoZWTBBl13gHhIMpQYg.gif">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
