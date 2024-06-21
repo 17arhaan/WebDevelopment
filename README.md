@@ -1,9 +1,9 @@
 <h1>
-  Welcome to The Website Development repository! 
+  Welcome to my MERN repository! 
 </h1>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://media.licdn.com/dms/image/C4E12AQHEGGtJCqfidQ/article-cover_image-shrink_720_1280/0/1598186595521?e=2147483647&v=beta&t=WY3w2I6tHzV_7K0fodlqtIc9o3_yo58NKoaVp-S2H2k">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fiamkrunal68.medium.com%2Fmern-stack-1f63372c87a5&psig=AOvVaw1pAidZcUfUxBcmnQZWYOIE&ust=1719074441312000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiC-LyR7YYDFQAAAAAdAAAAABAp">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
