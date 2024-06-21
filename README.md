@@ -2,9 +2,8 @@
   Welcome to my The Web Development repository! 
 </h1>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<div>
+
 <img src="https://topskill.biz/wp-content/uploads/2022/11/ColorlessBitesizedKob-size_restricted.gif">
-</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
