@@ -1,9 +1,9 @@
 <h1>
-  Welcome to The Website Development repository! 
+  Welcome to my The Web Development repository! 
 </h1>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://media.licdn.com/dms/image/C4E12AQHEGGtJCqfidQ/article-cover_image-shrink_720_1280/0/1598186595521?e=2147483647&v=beta&t=WY3w2I6tHzV_7K0fodlqtIc9o3_yo58NKoaVp-S2H2k">
+<img src="https://topskill.biz/wp-content/uploads/2022/11/ColorlessBitesizedKob-size_restricted.gif">
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
