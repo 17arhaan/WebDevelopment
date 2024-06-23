@@ -28,6 +28,20 @@ h1:hover {
     text-align: center;
 }
 
-div {
+div p{ /* Desendant Selector */
     line-height: 30px;
+    font-style: italic;
+}
+
+div > p { /* Child Selector */
+    color: wheat;
+    background-color: rebeccapurple;
+}
+div + p { /* Adjacent Sibling Selector */
+    color: wheat;
+    background-color: royalblue;
+}
+div ~ p { /* General Sibling Selector: */
+    color: wheat;
+    background-color: lightseagreen;
 }
