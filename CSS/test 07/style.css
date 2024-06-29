@@ -19,3 +19,33 @@ div {
     align-items: center;
     text-align: center;
 }
+
+.b1 {
+    margin: 20px;
+    background-color: rgb(201, 160, 109);
+    cursor:pointer;
+}
+
+.b1:hover {
+    margin: 20px;
+    background-color: rgb(201, 160, 109);
+    cursor:pointer;
+    box-shadow: 5px 5px rgba(0, 0, 0, .2);
+}
+
+.b2 {
+    background-color: lightskyblue;
+    margin:10px;
+}
+
+.b3 {
+    background-color: hotpink;
+    margin: 15px;
+    padding-bottom: 2px;
+}
+
+.b3:hover{
+    background-color: lightslategray;
+    border-color: rgb(0, 0, 0);
+    border-style: dashed;
+}
