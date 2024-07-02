@@ -15,18 +15,47 @@
         margin: 20px;
         padding: 10px;
       }
-      .spna {
+      span {
         border: 5px solid;
         display: flex;
         justify-content: center;
         margin: 20px;
         padding: 10px;
       }
+      .text-element { text-shadow: 10px 5px 3px #e695f7 }
+      .boxshadow{
+        border: 5px solid;
+        box-shadow: 5px 5px 15px 5px #888888;
+      }
+      .boxoutline{
+        outline: 3px solid;
+      }
     </style>
   </head>
   <body>
     <div class="box">This is a box</div>
-    <span class="spna">This and Below is also a</span>
-    <span class="spna">box</span>
+    <span>This and Below is also a</span>
+    <span>box</span>
+    <p class="text-element">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, atque. Modi voluptatibus necessitatibus architecto quidem sit maiores, ad nesciunt et odit esse. Possimus, ipsam et molestiae eius quae nisi quisquam maiores fugiat aut fuga!
+  </p>
+  <div class="boxshadow">
+    Shadow
+  </div>
+  <div class="boxoutline">
+    Outline
+  </div>
 </body>
 </html>
+
+<!--! Shadow Syntax-->
+<!-- 
+* box-shadow: h-offset v-offset blur spread color inset;
+* .div-element { box-shadow: 5px 5px 15px 5px #888888; }
+* text-shadow: h-offset v-offset blur color;
+-->
+<!--! Outline Syntax-->
+<!-- 
+* outline: width style color;
+* .button-element:focus { outline: 2px solid blue; }
+-->
