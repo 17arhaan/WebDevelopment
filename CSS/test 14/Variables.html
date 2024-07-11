@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 14</title>
+    <style>
+        /* Global Variable */
+        :root{ 
+            --color : rgb(203, 240, 255);
+            --seccolor : rgb(225, 136, 136);
+            --opacmain :0.5;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: var(--color);   
+        }
+        .nav {
+            background-color: var(--seccolor);
+        }
+        ul {
+            display: flex;
+            column-gap: 2vh;
+        }
+        ul li {
+            list-style: none;
+        }
+        /* Local Variable */
+        ul li:first-child{
+            --color : yellow;
+            background-color: var(--color);
+        }
+        .container {
+            opacity: var(--opacmain);
+            background-color: rgb(160, 245, 160);
+        }
+    </style>
+</head>
+<body>
+    <div class = "nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <div class = "container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus mollitia possimus illum quos, tempora nam alias dolorem quaerat non saepe obcaecati quasi officia rerum earum.
+    </div>
+</body>
+</html>
