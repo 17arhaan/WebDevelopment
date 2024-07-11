@@ -4,9 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Website</title>
-    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: bisque;
+        }
+        header {
+            position: sticky;
+            top:0px;
+            border: 1px solid
+        }
+        nav {
+            background-color: plum;
+            height: 50px;
+        }
+        .container {
+            margin: 12px 34px;
+            /* padding: 55px 23px; */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .box {
+            border: 1vh solid black;
+            color: bisque;
+            height: 50vw; 
+            width: 250vw; 
+            display: flex;
+        }   
+        .grey {
+            background-color: lightgray;
+            display: inline-block;
+        }
+        .salmon {
+            background-color: salmon;
+            display: inline-block;
+        }
+        .Text {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: bold;
+            padding: 34px;
+            border: 2px solid white;
+            margin: 50px 34vw;
+            font-size: 2em;
+            border-radius: 13px;
+
+        }
+        .Fixed {
+            height: 32px;
+            width: 32px;
+            background: orange;
+            position: fixed;
+            bottom: 12px;
+            right: 23px;
+            border-radius: 60px;
+            z-index: 1;
+        }
+
+        footer {
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+            height: 3vh;
+            background-color: grey;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        } 
+    </style>
 </head>
 <body>
-    
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <div class="container">
+        <div class="box grey">
+
+        </div>
+        <div class="box salmon">
+            
+        </div>
+    </div>
+    <div class="Text">
+        This is created by Arhaan
+    </div>
+    <div class ="Fixed">
+
+    </div>
+    <footer>
+        This is a footer.
+    </footer>
 </body>
 </html>
