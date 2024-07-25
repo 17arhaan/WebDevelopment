@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test 16</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: bisque;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+        .box1{
+            order: 1;
+            flex-grow: 1;
+            background-color: lightblue;
+        }
+        .box2{
+            /* flex-shrink:1 ; */
+            align-self: flex-end;
+            background-color: lightgrey;
+        }
+        .box3{background-color: lightgreen;}
+        .box4{background-color: lightcoral;}
+        .box5{background-color: rosybrown;}
+        .container {
+            flex-flow: wrap-reverse;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            /* align-items: flex-end; */
+            flex-wrap:wrap;
+            column-gap: 40px;
+            row-gap: 40px;
+        }
+        .flex {
+            border: .4vh solid;
+            padding: 3px;
+            margin: 4px;
+            box-sizing: border-box;
+            height: 80px;
+            width: 80px;
+            flex-shrink: 1 ;
+            order: 3;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="flex box1">1</div>
+        <div class="flex box2">2</div>
+        <div class="flex box3">3</div>
+        <div class="flex box4">4</div>
+        <div class="flex box5">5</div>
+    </div>
 </body>
 </html>

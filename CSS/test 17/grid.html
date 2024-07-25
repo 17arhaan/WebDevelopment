@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 17</title>
+  <!--  <style>
+        .container {
+            width: 80vw;
+            height: 100vh;
+            border: 2px solid black;
+            display: grid;
+            /* grid-template-columns: [pehla] 120px [doosra] 100px [t]; */
+            /* grid-template-rows: 100px 100px 100px; */
+            /* grid-template-columns: repeat(4, minmax(100px, 1fr)); */
+            grid-template-columns: repeat(4, 80px);
+            grid-template-rows: repeat(2, 80px);
+            /* gap: 34px; */
+            row-gap: 10px;
+            column-gap: 44px;
+            justify-items: center;
+            align-items: center;
+        }
+
+        .item {
+            border: 2px solid red;
+            height: 55px;
+            width: 55px;
+        }
+
+        .item-4 {
+            /* grid-row: 1/2;
+            grid-column: pehla/t; */
+        }
+
+        .item-1 {
+            /* grid-row: 1/2; */
+            /* or you can do  */
+            /* grid-row-start: 1;
+            grid-row-end: 2; */
+
+            /* same thing */
+            /* grid-column: 1/2; */
+        }
+    </style> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: bisque;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 80px);
+            grid-template-rows: repeat(5, 80px);
+            gap: 20px;
+            position: relative;
+        }
+        .flex {
+            border: .4vh solid;
+            padding: 3px;
+            box-sizing: border-box;
+            height: 80px;
+            width: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box1 { background-color: lightblue; grid-area: 3 / 3; }
+        .box2 { background-color: lightgrey; grid-area: 2 / 3; }
+        .box3 { background-color: lightgreen; grid-area: 1 / 2; }
+        .box4 { background-color: lightcoral; grid-area: 2 / 1; }
+        .box5 { background-color: rosybrown; grid-area: 2 / 5; }
+
+        /* Additional boxes for a complete star shape */
+        .box6 { background-color: lightgreen; grid-area: 3 / 1; }
+        .box7 { background-color: lightcoral; grid-area: 3 / 5; }
+        .box8 { background-color: lightgrey; grid-area: 4 / 2; }
+        .box9 { background-color: lightblue; grid-area: 4 / 4; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex box3">3</div>
+        <div class="flex box2">2</div>
+        <div class="flex box1">1</div>
+        <div class="flex box4">4</div>
+        <div class="flex box5">5</div>
+        <div class="flex box6">6</div>
+        <div class="flex box7">7</div>
+        <div class="flex box8">8</div>
+        <div class="flex box9">9</div>
+    </div>
+</body>
+</html>
